@@ -59,7 +59,7 @@ if (age < 13) {
 /*var drink = age >= 18 ? 'beer' : 'juice';
 console.log(drink);
 */
-
+//This is a test
 //switch Statement
 
 
