@@ -63,7 +63,7 @@ console.log(drink);
 //switch Statement
 
 
-var mikeScore1 = 116;
+/*var mikeScore1 = 116;
 var mikeScore2 = 94;
 var mikeScore3 = 123;
 
@@ -82,7 +82,18 @@ if(johnAverage > mikeAverage){
 {
 	console.log('Mike Team Wins!');
 }
+*/
 
+//Functions
 
+function calcuateAge(birthyear) {
+	return 2019 - birthyear;
+}
+
+var ageGeorge = calcuateAge(1986);
+var ageDemond = calcuateAge(1987);
+var ageShay = calcuateAge(1989);
+
+console.log( ageGeorge, ageDemond, ageShay);
 
 
