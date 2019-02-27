@@ -63,4 +63,26 @@ console.log(drink);
 //switch Statement
 
 
+var mikeScore1 = 116;
+var mikeScore2 = 94;
+var mikeScore3 = 123;
+
+var johnScore1 = 116;
+var johnScore2 = 94;
+var johnScore3 = 123;
+
+var mikeTotal = (mikeScore1 + mikeScore2 + mikeScore3);
+var mikeAverage = (mikeTotal/3);
+var johnTotal = (johnScore1 + johnScore2 + johnScore3);
+var johnAverage = (johnTotal/3);
+
+if(johnAverage > mikeAverage){
+	console.log('John team Wins!');
+}else
+{
+	console.log('Mike Team Wins!');
+}
+
+
+
 
