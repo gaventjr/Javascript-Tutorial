@@ -86,7 +86,7 @@ if(johnAverage > mikeAverage){
 
 //Functions
 
-function calcuateAge(birthyear) {
+/*function calcuateAge(birthyear) {
 	return 2019 - birthyear;
 }
 
@@ -95,5 +95,24 @@ var ageDemond = calcuateAge(1987);
 var ageShay = calcuateAge(1989);
 
 console.log( ageGeorge, ageDemond, ageShay);
+*/
 
+// Fuctioin Statements and Expressions
+
+var whatDoYouDo = function(job, firstName) {
+	switch(job) {
+		case 'teacher':
+			return firstName + ' teaches kids how to code';
+		case 'driver':
+			return firstName + ' drives a car';
+		case 'web developer':
+			return firstName + ' codes websites!';
+		default:
+			return firstName + ' does something else!';
+	}
+}
+
+console.log(whatDoYouDo('teacher', 'Shay'));
+console.log(whatDoYouDo('web developer', 'George'));
+console.log(whatDoYouDo('driver', 'Demond'));
 
