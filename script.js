@@ -99,7 +99,7 @@ console.log( ageGeorge, ageDemond, ageShay);
 
 // Fuctioin Statements and Expressions
 
-var whatDoYouDo = function(job, firstName) {
+/* var whatDoYouDo = function(job, firstName) {
 	switch(job) {
 		case 'teacher':
 			return firstName + ' teaches kids how to code';
@@ -112,7 +112,29 @@ var whatDoYouDo = function(job, firstName) {
 	}
 }
 
+*/
+
+
+
+/*
 console.log(whatDoYouDo('teacher', 'Shay'));
 console.log(whatDoYouDo('web developer', 'George'));
 console.log(whatDoYouDo('driver', 'Demond'));
+*/
 
+// Arrays
+
+var names = ['George', 'Demond', 'Shay'];
+var years = new Array(1986, 1988, 1990);
+console.log(names[0]);
+console.log(names.length);
+
+// You can mutate the array by
+
+names[1] = 'Monnie';
+console.log(names[1]);
+
+//To add to an array
+
+names[names.length] = 'Ashley';
+console.log(names);
