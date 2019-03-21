@@ -124,7 +124,7 @@ console.log(whatDoYouDo('driver', 'Demond'));
 
 // Arrays
 
-var names = ['George', 'Demond', 'Shay'];
+/*var names = ['George', 'Demond', 'Shay'];
 var years = new Array(1986, 1988, 1990);
 console.log(names[0]);
 console.log(names.length);
@@ -138,3 +138,19 @@ console.log(names[1]);
 
 names[names.length] = 'Ashley';
 console.log(names);
+*/
+
+
+// Objects and Properties
+
+var George = {
+	firstName: 'George',
+	lastName: 'Avent',
+	hairColor: 'Black',
+	birthyear: '1986',
+	family: ['Demond', 'Shay', 'Ashley']
+};
+
+George.hairColor = 'Brown';
+George['birthyear'] = '1985';
+console.log(George);
