@@ -143,7 +143,7 @@ console.log(names);
 
 // Objects and Properties
 
-var George = {
+/*var George = {
 	firstName: 'George',
 	lastName: 'Avent',
 	hairColor: 'Black',
@@ -154,3 +154,25 @@ var George = {
 George.hairColor = 'Brown';
 George['birthyear'] = '1985';
 console.log(George);
+*/
+
+
+	/*var George = {
+	firstName: 'George',
+	lastName: 'Avent',
+	hairColor: 'Black',
+	birthyear: '1986',
+	family: ['Demond', 'Shay', 'Ashley'],
+	 calcAge: function(birthyear) {
+		return 2019 - birthyear;
+	}
+	
+};
+
+console.log(George.calcAge(1986));
+*/
+
+for (var i = 1; i <= 20; i++) {
+	console.log(i);
+}
+	
